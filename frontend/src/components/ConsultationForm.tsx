@@ -35,7 +35,7 @@ const handleSubmit = async (e: React.FormEvent) => {
   setIsSubmitting(true);
 
   try {
-    const res = await fetch("http://localhost:5000/api/form", {
+    const res = await fetch("https://weone-aviation-backend.onrender.com/api/form", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
